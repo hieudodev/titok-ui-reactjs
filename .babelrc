@@ -1,0 +1,11 @@
+{
+    "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "~": "./src"
+        }
+      }]
+    ]
+  }
+
+//   vi cach import: import App from '~/App'
