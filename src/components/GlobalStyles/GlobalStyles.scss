@@ -1,16 +1,21 @@
 @import 'normalize.css';
 
 :root {
-  --primary: #fe3c55;
+    --primary: #fe3c55;
+    // default layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1508px;
 }
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 body {
-  font-size: 1.6rem;
-  font-family: 'AR One Sans', sans-serif;
-  line-height: 1.2rem;
+    font-size: 1.6rem;
+    font-family: 'AR One Sans', sans-serif;
+    line-height: 1.2rem;
 }
