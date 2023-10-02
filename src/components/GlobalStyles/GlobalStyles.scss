@@ -2,6 +2,9 @@
 
 :root {
     --primary: #fe3c55;
+    --black: #000;
+    --text-color: #333;
+
     // default layout
     --default-layout-header-height: 60px;
     --default-layout-width: 1508px;
@@ -18,4 +21,15 @@ body {
     font-size: 1.6rem;
     font-family: 'AR One Sans', sans-serif;
     line-height: 1.2rem;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
 }
