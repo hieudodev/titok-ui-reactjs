@@ -17,6 +17,10 @@
 }
 .logo {
 }
+.search-result {
+    width: 264px;
+    margin-top: -10px;
+}
 .search {
     position: relative;
     height: var(--searh-height);
@@ -69,4 +73,10 @@
     // border-radius: 92px;
     border-top-right-radius: var(--search-border-radius);
     border-bottom-right-radius: var(--search-border-radius);
+}
+.search-titile {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 1.4rem;
+    font-weight: 600px;
+    padding: 5px 12px;
 }
